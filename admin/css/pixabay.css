@@ -1,0 +1,30 @@
+/* Miniaturas de Pixabay para selección */
+.aicc-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.aicc-miniatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.aicc-miniatura img {
+    max-width: 100%;
+}
+
+.aicc-responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .aicc-miniatura {
+        width: 100%;
+    }
+}
